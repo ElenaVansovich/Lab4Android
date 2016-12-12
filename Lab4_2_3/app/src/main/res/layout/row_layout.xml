@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="@+id/label"
+            android:layout_width="match_parent"
+            android:id="@+id/regionCode"
+            android:layout_weight="1"
+            android:layout_height="86dp"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:text="@+id/label"
+            android:layout_width="match_parent"
+            android:id="@+id/regionName"
+            android:layout_weight="1"
+            android:layout_height="86dp"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:text="@+id/label"
+            android:layout_width="match_parent"
+            android:id="@+id/population"
+            android:layout_weight="1"
+            android:layout_height="86dp"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:text="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:id="@+id/areaName"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab4_2_3</string>
+
+    <string name="all_items">All items</string>
+    <string name="aggregate_items">Aggregate functions</string>
+    <string name="population_items">Output depending on population</string>
+
+    <string name="sort_items">Sort</string>
+    <string name="sort_name">by name</string>
+    <string name="sort_population">by population</string>
+    <string name="sort_region">by region</string>
+
+    <string name="filter_population">Filtration by population</string>
+    <string name="population">Population</string>
+
+</resources>

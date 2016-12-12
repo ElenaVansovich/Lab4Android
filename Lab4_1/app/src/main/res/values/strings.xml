@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guess the number!</string>
+    <string name="enter_number_hint">Try to guess the number (0 – 100)</string>
+    <string name="enter_value_button">Input value</string>
+    <string name="less">Over!</string>
+    <string name="more">Undershoot!</string>
+    <string name="congrats">Exactly</string>
+    <string name="empty_string">String is empty.</string>
+    <string name="unknown">Wrong value</string>
+</resources>

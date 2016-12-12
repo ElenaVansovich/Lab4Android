@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mypackage.lab4_2_3.Main2Activity"
+    android:background="@android:color/holo_green_dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+
+            <LinearLayout
+                android:background="@android:color/holo_green_light"
+                android:orientation="vertical"
+                android:id="@+id/buttonsPanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sort_items"
+                    android:textAlignment="center"
+                    android:padding="4dp"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_weight="1.32"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:text="@string/sort_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkName"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:onClick="onClicked"
+                        android:textColorLink="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <CheckBox
+                        android:text="@string/sort_population"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkPopulation"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:onClick="onClicked"
+                        android:textColorLink="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <CheckBox
+                        android:text="@string/sort_region"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkArea"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:onClick="onClicked"
+                        android:textColorLink="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

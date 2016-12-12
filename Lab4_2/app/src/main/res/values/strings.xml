@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab4_2</string>
+    <string name="show_button">Show</string>
+    <string name="add_button">Add</string>
+    <string name="replace_button">Replace</string>
+
+    <string name="table_text_view">Show table</string>
+
+    <string name="id_text_view">ID</string>
+    <string name="name_text_view">Name</string>
+    <string name="time_text_view">Time</string>
+</resources>
